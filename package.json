@@ -1,0 +1,23 @@
+{
+  "name": "attendance-register",
+  "version": "1.0.0",
+  "description": "Attendance tracker with a 75% eligibility calculator, calendar view, graphs, and an AI assistant — built for JSS University IT-2 (B8) Semester I.",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "postbuild": "cp dist/bundle.js ./bundle.js",
+    "dev": "npm run build && npx --yes serve dist -l 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lucide-react": "^1.39.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
